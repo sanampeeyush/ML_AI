@@ -5,6 +5,10 @@ fd = cv2.CascadeClassifier(
     cv2.data.haarcascades + 
     'haarcascade_frontalface_default.xml'
 )
+sd = cv2.CascadeClassifier(
+    cv2.data.haarcascades + 
+    'haarcascade_smile.xml'
+)
 vid = cv2.VideoCapture(0)
 
 while True:
