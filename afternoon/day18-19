@@ -1,0 +1,13 @@
+python -m pip install PyAudio‑0.2.11‑cp310‑cp310‑win_amd64.whl
+python -m pip install speechrecognition
+python -m pip install pyttsx3
+python -m pip install nltk
+
+
+on mac osx
+-----------
+brew install portaudio
+python3 -m pip install pyaudio
+python3 -m pip install speechrecognition
+python3 -m pip install pyttsx3
+python3 -m pip install nltk
